@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(198, 237, 208);
+}   
+#mainBox{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+   
+    
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(203, 243, 129);
+    border: 2px solid rgb(1, 45, 1);
+    
+} 
+.child-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+@media screen and (max-width: 600px) {
+    #mainBox{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .child{
+        width: 50vw;
+        height: 50vw;
+    }
+}

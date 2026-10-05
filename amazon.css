@@ -1,0 +1,99 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    height: 90px;
+    background-color: #171d25;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    /* padding: 10px 20px;
+    gap: 20px; */
+}
+
+/* Logo */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+
+.location {
+    width: 200px;
+}
+
+/* Search section */
+.search {
+    height: 42px;
+    display: flex;
+    width: 900px;
+}
+
+/* Category dropdown */
+.search select {
+    width: 65px;
+    border: none;
+    padding: 5px;
+    background-color: #eeeeee;
+}
+
+/* Search input */
+.search input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Search button */
+.search button {
+    width: 55px;
+    border: none;
+    background-color: #febd69;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Language */
+.language {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Account */
+.account {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.account small {
+    font-size: 12px;
+}
+
+.account b {
+    font-size: 14px;
+}
+
+/* Orders */
+.orders {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orders small {
+    font-size: 12px;
+}
+
+.orders b {
+    font-size: 14px;
+}
